@@ -21,4 +21,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Python Leonard
+        env:
+          MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
         run: python main.py
