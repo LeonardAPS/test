@@ -1,6 +1,6 @@
 import os
 
-host_id = os.environ["mysql_host"]
+# host_id = os.environ["mysql_host"]
 
 print("hell0")
-print(host_id)
+# print(host_id)
