@@ -21,4 +21,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Python Leonard
-        run: python ./test/main.py
+        run: python /main.py
